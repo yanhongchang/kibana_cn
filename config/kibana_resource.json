@@ -1,31 +1,31 @@
 [
   {
-    "path": "/src/core_plugins/kibana/index.js",
+    "path": "src/core_plugins/kibana/index.js",
     "en": "title: 'Discover'",
     "cn": "title: '发现'"
   },
   {
-    "path": "/src/core_plugins/kibana/index.js",
+    "path": "src/core_plugins/kibana/index.js",
     "en": "title: 'Visualize'",
     "cn": "title: '可视化'"
   },
   {
-    "path": "/src/core_plugins/kibana/index.js",
+    "path": "src/core_plugins/kibana/index.js",
     "en": "title: 'Dashboard'",
     "cn": "title: '仪表盘'"
   },
   {
-    "path": "/src/core_plugins/kibana/index.js",
+    "path": "src/core_plugins/kibana/index.js",
     "en": "title: 'Dev Tools'",
     "cn": "title: '开发工具'"
   },
   {
-    "path": "/src/core_plugins/kibana/index.js",
+    "path": "src/core_plugins/kibana/index.js",
     "en": "title: 'Management'",
     "cn": "title: '系统管理'"
   },
   {
-    "path": "/src/core_plugins/timelion/index.js",
+    "path": "src/core_plugins/timelion/index.js",
     "en": "title: 'Timelion'",
     "cn": "title: '时间线'"
   },
@@ -750,7 +750,7 @@
     "cn": "没有和您的查询相匹配的仪表盘\\n"
   },
   {
-    "path": "/src/core_plugins/kibana/public/dashboard/listing/dashboard_listing.html",
+    "path": "src/core_plugins/kibana/public/dashboard/listing/dashboard_listing.html",
     "en": "No dashboards matched your search.",
     "cn": "没有和您的查询相匹配的仪表盘"
   },
@@ -6768,150 +6768,5 @@
     "path": ".bundle.js",
     "en": "{general:\"General\",timelion:\"Timelion\",notifications:\"Notifications\",visualizations:\"Visualizations\",discover:\"Discover\",dashboard:\"Dashboard\",reporting:\"Reporting\",search:\"Search\"}",
     "cn": "{general:\"常规\",timelion:\"时间线\",notifications:\"通知\",visualizations:\"视图\",discover:\"发现\",dashboard:\"仪表盘\",reporting:\"报告\",search:\"搜索\"}"
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
-  },
-  {
-    "path": ".bundle.js",
-    "en": "",
-    "cn": ""
   }
 ]
