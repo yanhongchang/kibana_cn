@@ -1,0 +1,12 @@
+[
+  {
+    "path": "optimize/bundles/kibana.style.css",
+    "old_color": "#005571",
+    "new_color": "#458B74"
+  },
+  {
+    "path": "optimize/bundles/commons.style.css",
+    "old_color": "#005571",
+    "new_color": "#458B74"
+  }
+]

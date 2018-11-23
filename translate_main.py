@@ -15,7 +15,7 @@ class Translate(object):
     def __init__(self, kibana_dir):
         self.kibana_dir = kibana_dir
         self.tran_file_ext = ["js", "html", "json"]
-        self.resource_path = './config/kibana_resource.json'
+        self.resource_path = './resource/cn_resource.json'
         with open(self.resource_path, "r") as f:
             trans_content = f.read()
         self.tran_content = json.loads(trans_content)
@@ -28,7 +28,7 @@ class Translate(object):
                 if not self._check_file(f, self.tran_file_ext):
                     continue
                 # windows os need replace '\\' to '/'
-                source_file_path = root_dir.replace('\\', '/') + f.replace('\\', '/')
+                source_file_path = root_dir.replace('\\', '/') + '/' + f.replace('\\', '/')
                 with open(source_file_path, 'r') as fi:
                     f_content = fi.read()
                 file_changed = False
@@ -88,12 +88,17 @@ class Translate(object):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
+    path = "/home/jourmin/PycharmProjects/kibana_test/kibana-6.2.2-linux-x86_64/"
+    if len(sys.argv) == 2 or len(path) != 0:
+    #if len(sys.argv) == 2:
         try:
-            kibana_dir = sys.argv[1]
+            #kibana_dir = sys.argv[1]
+            kibana_dir = path
+            if not str(kibana_dir).endswith('/'):
+                kibana_dir = kibana_dir + '/'
             otran = Translate(kibana_dir)
             tran_file_counts, tran_item_counts = otran.trans_cn()
-            print "恭喜! 您的kibana汉化成功，{0}个文件总共翻译了{1}处".format(tran_item_counts, tran_item_counts)
+            print "恭喜! 您的kibana汉化成功，{0}个文件总共翻译了{1}处".format(tran_file_counts, tran_item_counts)
         except Exception as e:
             print "oh,抱歉! 您的kibana汉化失败，错误如下：{0}".format(str(e))
     else:
