@@ -88,12 +88,9 @@ class Translate(object):
 
 
 if __name__ == '__main__':
-    path = "/home/jourmin/PycharmProjects/kibana_test/kibana-6.2.2-linux-x86_64/"
-    if len(sys.argv) == 2 or len(path) != 0:
-    #if len(sys.argv) == 2:
+    if len(sys.argv) == 2:
         try:
-            #kibana_dir = sys.argv[1]
-            kibana_dir = path
+            kibana_dir = sys.argv[1]
             if not str(kibana_dir).endswith('/'):
                 kibana_dir = kibana_dir + '/'
             otran = Translate(kibana_dir)

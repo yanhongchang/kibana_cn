@@ -8,5 +8,39 @@
     "path": "optimize/bundles/commons.style.css",
     "old_color": "#005571",
     "new_color": "#458B74"
+  },
+  {
+    "path": "optimize/bundles/commons.style.css",
+    "old_color": "#004159",
+    "new_color": "#2E8B57"
+  },
+  {
+    "path": "optimize/bundles/vendors.bundle.js",
+    "old_color": "#0079a5",
+    "new_color": "#218868"
+  },
+  {
+    "path": "optimize/bundles/commons.style.css",
+    "old_color": "#0079a5",
+    "new_color": "#218868"
+  },
+  {
+    "path": "optimize/bundles/kibana.style.css",
+    "old_color": "#0079a5",
+    "new_color": "#218868"
+  },{
+    "path": "optimize/bundles/vendors.bundle.js",
+    "old_color": "#005472",
+    "new_color": "#2E8B57"
+  },
+  {
+    "path": "optimize/bundles/commons.style.css",
+    "old_color": "#005472",
+    "new_color": "#2E8B57"
+  },
+  {
+    "path": "optimize/bundles/kibana.style.css",
+    "old_color": "#005472",
+    "new_color": "#2E8B57"
   }
 ]
